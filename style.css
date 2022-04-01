@@ -12,6 +12,20 @@
   float: left;
 }
 
+@media screen and (max-width: 419px) {
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 991px) {
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+  }
+}
+
 #lezioni .row img {
   /* per centrare orizzontalmente */
   display: block;
@@ -61,6 +75,7 @@
 }
 
 .container.grey {
+
   background-color: #f9f9f9;
 }
 
